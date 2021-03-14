@@ -28,4 +28,5 @@ jobs:
         # exit-zero treats all errors as warnings.
         flake8 . --count --exit-zero --max-line-length=80 --ignore=E111,E121,E126 --statistics
     - name: Run
+      run: pip install numpy
       run: python check_limits.py
