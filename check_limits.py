@@ -1,6 +1,3 @@
-#BMS_Parameters = {'Temperature','Sate_of_Charge','Charge_Rate','Max_NoOf_BMS_Parameters'}
-#BMS_Languages = {'English','German'}
-
 BMS_Parameters_Names = { 'EN': {"Temperature" ,"SOC", "ChargeRate"},
                                                              'DE': {"Temperatur"  , "Ladezustand" ,  "Ladestrom"} 
                                                             }
